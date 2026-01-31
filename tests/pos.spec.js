@@ -40,9 +40,9 @@ test('Pos_Fun_0005', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/ ');
 
     const inputbox = page.locator('textarea');
-    await inputbox.fill('    oyaata dhaen kohomadha? ');
+    await inputbox.fill('    oyaata adha kohomadha? ');
     const outputbox = page.locator('div.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap.overflow-y-auto.flex-grow.bg-slate-50');
-    await expect(outputbox).toContainText('  ඔයාට දැන් කොහොමද?  ');
+    await expect(outputbox).toContainText(' ඔයාට අද කොහොමද? ');
 });
 
 test('Pos_Fun_0006', async ({ page }) => {
@@ -69,9 +69,9 @@ test('Pos_Fun_0008', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/ ');
 
     const inputbox = page.locator('textarea');
-    await inputbox.fill(' mata udhavvak karanna puLuvandha? ');
+    await inputbox.fill(' karunakarala poddak help karanna');
     const outputbox = page.locator('div.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap.overflow-y-auto.flex-grow.bg-slate-50');
-    await expect(outputbox).toContainText('මට උදව්වක් කරන්න පුළුවන්ද?  ');
+    await expect(outputbox).toContainText(' කරුනකරල පොඩ්ඩක් help කරන්න ');
 });
 
 
