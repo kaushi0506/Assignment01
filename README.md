@@ -8,7 +8,7 @@ https://www.swifttranslator.com/
 Playwright (JavaScript)
 
 ## Test Files
-- tests/pos.spec.js (24 Positive Functional Test Cases)
+- tests/pos.spec.js (27 Positive Functional Test Cases)
 - tests/neg.spec.js (10 Negative Functional Test Cases)
 - tests/ui.spec.js  (1 UI Test Case)
 
